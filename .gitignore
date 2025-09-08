@@ -1,0 +1,9 @@
+# Ignore virtual environment folder
+venv/
+
+# Ignore environment config file
+.env
+
+# Ignore raw data files except DVC metafile
+data/data.csv
+data/preprocessed.csv

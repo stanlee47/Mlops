@@ -1,0 +1,8 @@
+preprocess:
+  input: data/data.csv
+  output: data/preprocessed.csv
+train:
+  data: data/preprocessed.csv
+  model_path: models/model.pkl
+
+  
