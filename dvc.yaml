@@ -12,5 +12,4 @@ stages:
     deps:
       - src/train.py
       - data/preprocessed.csv
-    outs:
-      - models/model.pkl
+    # Remove 'outs' for model.pkl

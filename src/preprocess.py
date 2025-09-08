@@ -18,4 +18,4 @@ scaler=StandardScaler()
 numerical_cols=df.select_dtypes(include=['int64','float64']).columns
 df[numerical_cols]=scaler.fit_transform(df[numerical_cols])
 df.to_csv(output_path,index=False)
-print(f"Preprocessed data saved to {output_path}")
+print(f"Preprocessed data savedd to {output_path}")
