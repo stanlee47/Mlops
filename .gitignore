@@ -7,3 +7,6 @@ venv/
 # Ignore raw data files except DVC metafile
 data/data.csv
 data/preprocessed.csv
+
+
+models\model.pkl
