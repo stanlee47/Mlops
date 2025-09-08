@@ -1,0 +1,22 @@
+# config.toml for Streamlit Cloud deployment
+
+[server]
+headless = true          # Run Streamlit in headless mode (required for cloud)
+port = 8501              # Default Streamlit port
+enableCORS = false       # Disable CORS for cloud
+enableXsrfProtection = false
+
+[theme]
+primaryColor = "#4CAF50"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#000000"
+font = "sans serif"
+
+[runner]
+# Optional: environment details
+python_version = "3.10.13"
+
+[package]
+# You can pin important packages here if needed
+requirements_file = "requirements.txt"
